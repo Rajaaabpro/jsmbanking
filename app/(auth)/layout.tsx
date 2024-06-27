@@ -3,5 +3,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <main>SIDEBAR</main>;
+  return (
+    <main className="flex h-screen w-full font-inter">
+      SIDEBAR
+      {children}
+    </main>
+  );
 }
