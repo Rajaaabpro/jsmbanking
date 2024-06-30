@@ -1,12 +1,9 @@
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+import React from 'react'
+
+const layout = () => {
   return (
-    <main className="flex h-screen w-full font-inter">
-      SIDEBAR
-      {children}
-    </main>
-  );
+    <div>layout</div>
+  )
 }
+
+export default layout
